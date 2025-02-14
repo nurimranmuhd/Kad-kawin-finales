@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSVP Kehadiran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="kad">
+        <h1>RSVP Kehadiran</h1>
+        <form id="rsvpForm">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="kehadiran">Kehadiran:</label>
+            <select id="kehadiran" name="kehadiran">
+                <option value="Hadir">Hadir</option>
+                <option value="Tidak Hadir">Tidak Hadir</option>
+            </select>
+
+            <button type="submit">Hantar</button>
+        </form>
+
+        <button onclick="window.location.href='index.html'">Kembali</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
